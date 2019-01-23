@@ -12,6 +12,8 @@
 		280E3D2E21F803BA00F5EAFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280E3D2C21F803BA00F5EAFF /* Main.storyboard */; };
 		280E3D3021F803BB00F5EAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280E3D2F21F803BB00F5EAFF /* Assets.xcassets */; };
 		280E3D3321F803BB00F5EAFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280E3D3121F803BB00F5EAFF /* LaunchScreen.storyboard */; };
+		280E3D3C21F8083F00F5EAFF /* CustomizedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280E3D3A21F8083F00F5EAFF /* CustomizedCell.swift */; };
+		280E3D3D21F8083F00F5EAFF /* CustomizedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E3D3B21F8083F00F5EAFF /* CustomizedCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		280E3D2F21F803BB00F5EAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280E3D3221F803BB00F5EAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280E3D3421F803BB00F5EAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280E3D3A21F8083F00F5EAFF /* CustomizedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedCell.swift; sourceTree = "<group>"; };
+		280E3D3B21F8083F00F5EAFF /* CustomizedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomizedCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				280E3D2F21F803BB00F5EAFF /* Assets.xcassets */,
 				280E3D3121F803BB00F5EAFF /* LaunchScreen.storyboard */,
 				280E3D3421F803BB00F5EAFF /* Info.plist */,
+				280E3D3A21F8083F00F5EAFF /* CustomizedCell.swift */,
+				280E3D3B21F8083F00F5EAFF /* CustomizedCell.xib */,
 			);
 			path = TableInsideCollectionViewDemo;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				280E3D3321F803BB00F5EAFF /* LaunchScreen.storyboard in Resources */,
 				280E3D3021F803BB00F5EAFF /* Assets.xcassets in Resources */,
+				280E3D3D21F8083F00F5EAFF /* CustomizedCell.xib in Resources */,
 				280E3D2E21F803BA00F5EAFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				280E3D2B21F803BA00F5EAFF /* ViewController.swift in Sources */,
 				280E3D2921F803BA00F5EAFF /* AppDelegate.swift in Sources */,
+				280E3D3C21F8083F00F5EAFF /* CustomizedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
